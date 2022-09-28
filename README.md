@@ -1,5 +1,6 @@
 <html>
- <head> <b> <i> Eat bull testicle get gains </B> </i>
+ <head> <b> <i> Dishes to try! </i> </head>
+  <hr/ >
 <img src="hamburgerecipe.jpeg" title="impossilbe burger filled with estrogen no go" width=200 height=150>
  <a href="https://www.foodnetwork.com/grilling/grilling-central-burgers-and-hot-dogs/top-hot-dogs">Glizzy</a>
   <hr/ >
@@ -16,5 +17,4 @@
  <a href="https://www.foodandwine.com/drinks/cocktail-recipes-2022">Drinks</a>
    <hr/ >
  <img src="cocktailrecipe.jpeg" title="Round on the house wash down the glizzy!" width=100 height=100>
- </head>
  </html>
