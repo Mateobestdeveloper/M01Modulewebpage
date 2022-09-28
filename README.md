@@ -1,6 +1,5 @@
 <html>
- <head> <i> Dishes to try! </i> 
-  <hr/ >
+ <head> <i> Dishes to try! </i>
   </head>
 <img src="hamburgerecipe.jpeg" title="impossilbe burger filled with estrogen no go" width=200 height=150/>
  <a href="https://www.foodnetwork.com/grilling/grilling-central-burgers-and-hot-dogs/top-hot-dogs">Glizzy</a>
