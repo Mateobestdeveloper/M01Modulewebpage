@@ -1,5 +1,5 @@
 <html>
- <head> <i><b> Dishes to try! <b></i>
+ <head> <i> Dishes to try! </i>
   <br>
   </head>
   <body>
