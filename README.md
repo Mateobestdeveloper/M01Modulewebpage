@@ -5,7 +5,7 @@
  <a href="https://www.foodnetwork.com/grilling/grilling-central-burgers-and-hot-dogs/top-hot-dogs">Glizzy</a>
  <img src="hotdogrecipe.jpeg" title="Glizzy worth gobbeling" width=100 height=100>
  <a href="https://barefeetinthekitchen.com/homemade-ice-cream-recipe/">Icecream</a>
-<img src="icecreamrecipe.jpg" title="end your nice meal with some dessert hope you aint lacktoesimtalllawrence" width=100 height=100>
+<img src="icecreamrecipe.jpg" title="end your nice meal with some dessert." width=100 height=100>
  <a href="https://www.spendwithpennies.com/easy-homemade-lasagna/">Italy menu</a>
  <img src="lasagnarecipe.jpg" title="itsa me mr italy food i cookda meatball" width=100 height=100/>
  <a href="https://www.tasteofhome.com/collection/classic-homemade-soup-recipes/">Soup</a>
