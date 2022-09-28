@@ -1,5 +1,5 @@
 <html>
- <head> <b> <i> Dishes to try! </i> 
+ <head> <i> Dishes to try! </i> 
   <hr/ >
   </head>
 <img src="hamburgerecipe.jpeg" title="impossilbe burger filled with estrogen no go" width=200 height=150/>
