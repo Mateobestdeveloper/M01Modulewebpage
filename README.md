@@ -16,6 +16,6 @@
    <hr/ >
       <img src="image.png" title="i forgot what this was i didnt lable it:(" width=100 height=100/>
  <a href="https://www.foodandwine.com/drinks/cocktail-recipes-2022">Drinks</a>
-   <hr/ >
+   <hr >
  <img src="cocktailrecipe.jpeg" title="Round on the house wash down the glizzy!" width=100 height=100/>
  </html>
