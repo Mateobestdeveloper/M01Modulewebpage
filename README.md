@@ -21,8 +21,6 @@
  <a href="https://www.foodandwine.com/drinks/cocktail-recipes-2022">
   <img src="cocktailrecipe.jpeg" title="Round on the house wash down the glizzy!" width=100 height=100/>
   </a>
-  <a href="https://www.foodandwine.com/drinks/cocktail-recipes-2022">
-  <img src="cocktailrecipe.jpeg" title="Round on the house wash down the glizzy!" width=100 height=100/>
   <hr >
  </body>
  </html>
