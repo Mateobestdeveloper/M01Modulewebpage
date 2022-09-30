@@ -3,7 +3,7 @@
   <br>
   </head>
   <body>
-<img src="hamburgerecipe.jpeg" title="impossilbe burger filled with estrogen no go" width=200 height=150/>
+<img src="hamburgerecipe.jpeg" title="impossilbe burger filled with chemicals" width=200 height=150/>
    <br>
  <a href="https://www.foodnetwork.com/grilling/grilling-central-burgers-and-hot-dogs/top-hot-dogs">
   <img src="hotdogrecipe.jpeg" title="Glizzy worth gobbeling" width=100 height=100/></a>
