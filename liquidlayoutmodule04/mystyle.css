@@ -18,18 +18,18 @@
 				width: 31.3%;
 				float: left;
 				margin: 1%;
-				background-color: #23f32e;}
+				background-color: blue ;}
 			.column3 {
 				margin-right: 0%;}
 			li {
 				display: inline;
 				padding: 0.5em;}
 			 #footer {
-				background-color: #efefef;
+				background-color: lightblue;
 				padding: 0.5em 0;}
 			#nav, {
 				padding: 0.5em 0;
-				background-color:#123456;}
+				background-color:red;}
 			#feature, .article {
 				height: 10em;
 				margin-bottom: 1em;
