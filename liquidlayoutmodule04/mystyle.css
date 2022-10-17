@@ -10,7 +10,8 @@
 				width: 90%;
 				margin: 0 auto;}
 			#content {
-				overflow: auto;}
+				overflow: auto;
+				background-color: lightblue;}
 				
 			#nav, #feature, #footer {
 				margin: 1%;}
