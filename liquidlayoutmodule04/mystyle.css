@@ -23,10 +23,11 @@
 			li {
 				display: inline;
 				padding: 0.5em;}
-			#nav, #footer {
+			 #footer {
 				background-color: #efefef;
 				padding: 0.5em 0;}
-			#nav {
+			#nav, {
+				padding: 0.5em 0;
 				background-color:#000000;}
 			#feature, .article {
 				height: 10em;
