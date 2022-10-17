@@ -11,8 +11,6 @@
 				margin: 0 auto;}
 			#content {
 				overflow: auto;}
-			#nav {
-				background-color:#000000;}
 				
 			#nav, #feature, #footer {
 				margin: 1%;}
@@ -28,6 +26,8 @@
 			#nav, #footer {
 				background-color: #efefef;
 				padding: 0.5em 0;}
+			#nav {
+				background-color:#000000;}
 			#feature, .article {
 				height: 10em;
 				margin-bottom: 1em;
