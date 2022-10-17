@@ -11,6 +11,9 @@
 				margin: 0 auto;}
 			#content {
 				overflow: auto;}
+			#nav {
+				background-color:#000000;}
+				
 			#nav, #feature, #footer {
 				margin: 1%;}
 			.column1, .column2, .column3 {
