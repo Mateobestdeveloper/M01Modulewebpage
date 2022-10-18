@@ -12,6 +12,7 @@
 			#content {
 				overflow: auto;
 				background-color: lightblue;}
+#header { background-color: blue;}
 				
 			#nav, #feature, #footer {
 				margin: 1%;}
