@@ -13,6 +13,9 @@
 				overflow: auto;
 				background-color: lightblue;}
 #header { background-color: blue;}
+#article column1 { background-color: red;}
+#article column2 { background-color: green;}
+#article column3 { background-color: lightgreen;}
 				
 			#nav, #feature, #footer {
 				margin: 1%;}
