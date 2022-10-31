@@ -45,6 +45,6 @@ form.addEventListener("submit", function (event) {
 	let emailValid = validateEmail(form.elements["email"], EMAIL_REQUIRED, EMAIL_INVALID);
 	// if valid, submit the form.
 	if (nameValid && emailValid) {
-		window.location("thankyou.html");
+		window.open("thankyou.html");
 	}
 });
