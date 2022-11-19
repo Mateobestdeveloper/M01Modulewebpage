@@ -1,3 +1,9 @@
+var myImages =["kermitcomputer.jpg","kermitshoot.jpg","kermitsad.jpg","kermitdrink.jpg","kermit.jpg"];
+
+
+var captionImages =["Laugh","Love","Lunch","Happiness","Family"];
+
+ var index=0; 
 
  function updateImage(){
  document.getElementById("slideshow").src = myImages[index];
@@ -29,9 +35,3 @@ function back(){
  
  updateImage();
 } 
-
-var nextButton = document.getElementById("next"); 
-var previousButton = document.getElementById("previous"); 
-
-previousButton.addEventListener("click",back,false);
-nextButton.addEventListener("click",next,false);
