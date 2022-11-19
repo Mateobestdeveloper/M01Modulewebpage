@@ -35,3 +35,8 @@ function back(){
  
  updateImage();
 } 
+var nextButton = document.getElementById("next"); 
+var previousButton = document.getElementById("previous"); 
+
+previousButton.addEventListener("click",back,false);
+nextButton.addEventListener("click",next,false);
