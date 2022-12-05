@@ -1,0 +1,38 @@
+	
+    <title>Chess Pattern</title>
+</head>
+  <style>
+	.chessboard{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+	}
+
+	.chessboard::before {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background: repeating-linear-gradient(
+			45deg, #000 0, #000 40px,
+			#fff 40px, #fff 80px);
+	}
+
+	.chessboard::after {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background: repeating-linear-gradient(
+			-45deg, #000 0, #000 40px,
+			#fff 40px, #fff 80px);
+		mix-blend-mode: difference;
+	}
+</style>
+<body>
+    <div class="chessboard"></div>
+</body>
+  
+</html>
