@@ -1,41 +1,180 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>JS Bin</title>
-</head>
-<body>
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta name="description" content="Artifact 04 - Contact Us">
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="stylesheet.css" />
-        <title>Artifact 04</title>
-    </head>
-    <body>
-        <form id="myform" action="ty.html" onsubmit="isValid();">
-            <p>
-                <label for='FirstName'>First Name:</label>
-                <input type="text" id="FirstName" name="FirstName" />
-              <br>
-                <label for='LastName'>Last Name:</label>
-                <input type="text" id="LastName" name="LastName"/>
-                
-            </p>
-            <div class="warning" id="fname"></div>
-            
-            <p>
-                <input type="submit" id="submit" name="submit" value="Submit">
-            </p>
-        
-            <div class="warning" id="submiterror"></div>
-        
-        </form>
 
-        <script src="javascript.js" type="text/javascript"></script>
+    <head>
+        <script>
+            function VALIDATE() {
+                var name =
+                    document.forms.RegForm.Name.value;
+		var username =
+		    document.forms.RegForm.Username
+                var email =
+                    document.forms.RegForm.EMail.value;
+                var phone =
+                    document.forms.RegForm.Telephone.value;
+                var what =
+                    document.forms.RegForm.Subject.value;
+                var password =
+                    document.forms.RegForm.Password.value;
+                var address =
+                    document.forms.RegForm.Address.value;
+		var city =
+		    document.forms.RegForm.value;
+                var regEmail=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/g;  //Javascript reGex for Email Validation.
+                var regPhone=/^\d{10}$/;                                        // Javascript reGex for Phone Number validation.
+                var regName = /\d+$/g;                                    // Javascript reGex for Name validation
+ 
+                if (name == "" || regName.test(name) || name.length > 25) {
+                    window.alert("Please enter your name properly.");
+                    name.focus();
+                    return false;
+                }
+		if (username == "" && username.length <12) {
+		   window.alert("Please enter a username below 12 characters");
+		   username.focus();
+		   return false;
+		}
+ 
+                if (address == "")  {
+                    window.alert("Please enter your address.");
+                    address.focus();
+                    return false;
+                }
+		
+		if (city == "") {
+		   window.alert("Please enter your city.");
+		   city.focus();
+		   return false;
+		}
+		
+                 
+                if (email == "" || !regEmail.test(email)) {
+                    window.alert("Please enter a valid e-mail address.");
+                    email.focus();
+                    return false;
+                }
+                  
+                if (password == "" || password.length >12 ){
+                    alert("Please enter your password bigger than 12 characters");
+                    password.focus();
+                    return false;
+                }
+ 
+                if(password.length <7){
+                    alert("7 character maximum");
+                    password.focus();
+                    return false;
+ 
+                }
+                if (phone == "" || !regPhone.test(phone)) {
+                    alert("Please enter valid phone number.");
+                    phone.focus();
+                    return false;
+                }
+
+		
+		
+ 
+                if (what.selectedIndex == -1) {
+                    alert("Please enter your country.");
+                    what.focus();
+                    return false;
+                }
+ 
+                return true;
+            }
+        </script>
+ 
+        <style>	
+
+            div {
+                box-sizing: border-box;
+                width: 100%;
+                border: 100px solid black;
+                float: left;
+                align-content: left;
+                align-items: left;
+            }
+ 
+            form {
+                margin: 0 auto;
+                width: 1500px;
+            }
+        </style>
+    </head>
+ 
+    <body>
+        <h1>Artifact4</h1>
+        <form name="RegForm" onsubmit="return VALIDATE()" action=ty.html  method="post">
+ 
+             
+<p>Name: <input type="text"
+                            size="65" name="Name" /></p>
+ 
+            <br />
+
+<p>Username: <input type="text"
+                            size="65" name="Username" /></p>
+<br />
+             
+<p>Address: <input type="text"
+                            size="65" name="Address" />
+        </p>
+ 
+            <br />
+
+<p>City: <input type="text"
+                            size="65" name="City" /></p>
+
+<br />
+
+             
+<p>E-mail Address: <input type="text"
+                            size="65" name="EMail" /></p>
+ 
+            <br />
+             
+<p>Password: <input type="text"
+                        size="65" name="Password" /></p>
+ 
+            <br />
+             
+<p>Telephone: <input type="text"
+                        size="65" name="Telephone" /></p>
+ 
+            <br />
+ 
+<p>             
+  Which country do you reside?
+                <select type="text" value="" name="Subject">
+                    <option>USA</option>
+                    <option>Canada</option>
+                    <option>Mexico</option>
+                    <option>Brazil</option>
+                    <option>Uragay</option>
+                </select>
+ </p>
+            <br />
+
+<p>             
+  Which State do you reside?
+                <select type="text" value="" name="State">
+                    <option>Ohio</option>
+                    <option>Ohio</option>
+                    <option>Ohio</option>
+                    <option>Ohio</option>
+                    <option>Ohio</option>
+                </select>
+ </p>
+            <br />
+             
+<p>Comments: <textarea cols="55"
+                            name="Comment"> </textarea></p>
+<p>
+                <input type="submit"
+                    value="send" name="Submit" />
+                <input type="reset"
+                    value="Reset" name="Reset" />
+            </p>
+ 
+        </form>
     </body>
-</html>
-</body>
 </html>
