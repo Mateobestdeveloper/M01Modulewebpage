@@ -13,11 +13,17 @@ document.getElementById("textbox3").value = x[2] ;
   document.getElementById("button3").addEventListener("click", button3);
 });
 
-function button1Function() {
-  let x = origArray.map(four);
+function button1() {
+  let x = origArray.map(item => item**2);
    document.getElementById("textbox1").value = x[0] ; 
 document.getElementById("textbox2").value = x[1] ;  
 document.getElementById("textbox3").value = x[2] ;  
+}
+function button3() {
+    let x = origArray.map(four);
+    document.getElementById("textbox1").value = x[0] ; 
+document.getElementById("textbox2").value = x[1] ;  
+document.getElementById("textbox3").value = x[2] ;     
 }
 function square(item) {
   let x = item ** 2 ;
